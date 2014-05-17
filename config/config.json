@@ -64,5 +64,13 @@
             }
         }
 
-    }
+    },
+
+ "databaseConfig" : {
+	"host" : "localhost",
+	"database" : "krakenjs"
+  },
+  "bcrypt" : {
+  	"difficulty" : 8
+  }
 }
