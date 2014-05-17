@@ -66,11 +66,11 @@
 
     },
 
- "databaseConfig" : {
-	"host" : "localhost",
-	"database" : "krakenjs"
-  },
-  "bcrypt" : {
-  	"difficulty" : 8
-  }
+	"databaseConfig" : {
+		"host" : "localhost",
+		"database" : "krakenjs"
+	},
+	"bcrypt" : {
+		"difficulty" : 8
+	}
 }
