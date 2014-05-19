@@ -21,7 +21,7 @@ module.exports = function (router) {
 
         passport.authenticate('local', {
 		successRedirect: req.session.goingTo || '/profile',
-		failureRedirect: "/login",
+		failureRedirect: '/login',
 		failureFlash: true
 	})(req, res);
 
